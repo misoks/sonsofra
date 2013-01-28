@@ -1,0 +1,125 @@
+/* This style by Cathy Fisher for The Sons of Ra, an organization that 
+    DEFINITELY DOES NOT EXIST. Please enjoy. */
+
+
+/*GLOBAL*/
+
+body {
+	background-color: #100f0d;
+	background-image: url('../img/sonsofrarep.jpg');
+	background-repeat: repeat-x;
+	color: #D9D5C0;
+}
+
+a {
+	color: rgb(163, 32, 32);
+	text-decoration: none;
+	transition: all ease .5s;
+	-webkit-transition: all ease .5s;
+}
+    a:visited {
+        color: #751b1b;
+    }
+    a:hover {
+        color: #bb0701;
+    }
+
+h1, h2, h3, h4 {
+    font-weight: normal;
+    font-style: italic;
+}
+
+h1 {
+    color: #FAE17C;
+    text-align: center;
+}
+
+blockquote {
+    margin-top: 1em;
+}
+
+
+/* LAYOUT */
+
+.container {
+    width: 1000px;
+    max-width: 95%;
+    position: relative;
+    overflow: hidden;
+}
+
+section, .content {
+    width: 100%;
+}
+
+article, .main {
+    width: 65%;
+    float: left;
+}
+aside, .sidebar {
+    width: 30%;
+    float: right;
+}
+footer, .footer {
+    display: block;
+    width: 1000px;
+    font-size: .85em;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    border-top: 1px solid rgba(255,255,255,.2);
+}
+
+
+
+/* NAV BAR */
+
+.navigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 208px;
+    left: 0;
+    display: block;
+    width: 100%;
+}
+    .nav-link {
+        display: inline;
+    }
+        .nav-link:first-child:before,
+        .right-side:last-child:before,
+        .nav-link:after {
+            content: " · ";
+            margin: 0 1.7em;
+        }
+        .nav-link a {
+            color: #F2E9C8;
+            font-size: 1.2em;
+        }
+            .nav-link a:hover, .nav-link a.current {
+                color: #FAE17C;
+            }
+            .nav-link a.current {
+                cursor: default;
+            }
+        .left-side {
+            float: left;
+        }
+        .right-side {
+            float: right;
+        }
+
+
+/*TWITTER*/
+
+.twtr-hd, .twtr-user {
+    display: none;
+}
+
+
+/* UTILITIES */
+
+.hidden { display: none; }
+.centered-text { text-align: center; }
+.center-aligned { margin-left: auto; margin-right: auto; }
+.papyrus { font-family: Papyrus; }
