@@ -2,7 +2,7 @@
 
 <?php include_once('templates/header.php'); ?>
 
-    <h2>Welcome to the official website of an organization that is not The Sons of Ra!</h2>
+    <h2>Welcome to a website not connected to The Sons of Ra, who do not exist!</h2>
     
     <p>
         <span class="drop-cap">B</span>lessings of the Sun upon you, Internet-surfer! This website is not the new online 

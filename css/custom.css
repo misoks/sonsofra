@@ -9,6 +9,7 @@ body {
 	background-image: url('../img/sonsofrarep.jpg');
 	background-repeat: repeat-x;
 	color: #D9D5C0;
+	font-size: 17px;
 }
 
 a {
@@ -37,6 +38,11 @@ h1 {
 blockquote {
     margin-top: 1em;
 }
+.main img {
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+}
 
 
 /* LAYOUT */
@@ -53,13 +59,12 @@ section, .content {
 }
 
 article, .main {
-    width: 65%;
-    float: left;
+    width: 35em;
 }
-aside, .sidebar {
+/*aside, .sidebar {
     width: 30%;
     float: right;
-}
+}*/
 footer, .footer {
     display: block;
     width: 1000px;
@@ -78,7 +83,7 @@ footer, .footer {
     margin: 0;
     padding: 0;
     position: absolute;
-    top: 208px;
+    top: 206px;
     left: 0;
     display: block;
     width: 100%;
@@ -90,7 +95,7 @@ footer, .footer {
         .right-side:last-child:before,
         .nav-link:after {
             content: " · ";
-            margin: 0 1.7em;
+            margin: 0 1.2em;
         }
         .nav-link a {
             color: #F2E9C8;

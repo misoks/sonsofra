@@ -1,5 +1,5 @@
             </article>
-            <?php include_once('templates/sidebar.php'); ?>
+           
         </section>
                     
         </div>
@@ -12,7 +12,7 @@
 
     <footer class="footer centered-text center-aligned">
             <p>
-                Copyright <a href="http://www.sonsofra.org">The Sons of Ra</a> 2010<br />
+                Copyright <a href="http://www.sonsofra.org">The Sons of Ra</a> 2010 - 2013<br />
                 Web design by J. J. Waterstonson, with emotional support from C. Fisher
             </p>
         </footer>

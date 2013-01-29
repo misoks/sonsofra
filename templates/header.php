@@ -54,4 +54,4 @@
             </header>
     
             <section class="content">
-                <article class="main">
+                <article class="main center-aligned">
